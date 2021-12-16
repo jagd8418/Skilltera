@@ -1,0 +1,74 @@
+.banner {
+  padding-left: 90px;
+  position: relative;
+  z-index: 0;
+  background-image: linear-gradient(
+    to right,
+    #ada996,
+    #f2f2f2,
+    #dbdbdb,
+    #eaeaea
+  );
+  overflow-x: hidden;
+}
+
+.for-companies {
+  width: 300px;
+  height: 200px;
+  float: left;
+  position: absolute;
+  top: 2.5rem;
+  left:7rem;
+}
+.for-developers {
+  width: 300px;
+  height: 200px;
+  float: left;
+  position: absolute;
+  left: 12rem;
+  top: 2.5rem;
+}
+@media (max-width: 480px) {
+  .banner {
+    padding-left: 0px;
+    position: static;
+    z-index: -10;
+    height: 100vh;
+    background-image: linear-gradient(
+      to bottom,
+      #ada996,
+      #f2f2f2,
+      #dbdbdb,
+      #eaeaea
+    );
+  }
+  .for-companies {
+    width: 100%;
+    height: 0px;
+    top: 8rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .for-developers {
+    width: 100%;
+    height: 0px;
+    left: 0;
+    top: 21rem;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+  .banner-image-section {
+    /* display: none; */
+    position: relative;
+    top: 25rem;
+  }
+}
+
+
+.fonts{
+
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+
+}
